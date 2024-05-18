@@ -90,7 +90,7 @@ namespace SportsStore.Migrations
 
                     b.HasKey("OrderID");
 
-                    b.ToTable("orders");
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("SportsStore.Models.Product", b =>

@@ -12,7 +12,7 @@ using SportsStore.Models;
 namespace SportsStore.Migrations
 {
     [DbContext(typeof(StoreDBContext))]
-    [Migration("20240518151050_Orders")]
+    [Migration("20240518161730_Orders")]
     partial class Orders
     {
         /// <inheritdoc />
@@ -93,7 +93,7 @@ namespace SportsStore.Migrations
 
                     b.HasKey("OrderID");
 
-                    b.ToTable("orders");
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("SportsStore.Models.Product", b =>
